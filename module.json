@@ -1,0 +1,30 @@
+{
+  "name": "fallout_zh-TW",
+  "title": "異塵餘生正體中文 [Fallout 2d20]",
+  "description": "為異塵餘生 FVTT 系统增加正體中文。",
+  "author": "Sass",
+  "authors": [],
+  "url": "https://github.com/FVTT-zh-TW/fallout_zh-TW",
+  "flags": {},
+  "version": "0.8.6",
+  "minimumCoreVersion": "0.6.5",
+  "compatibleCoreVersion": "0.8.9",
+  "scripts": [],
+  "esmodules": [],
+  "styles": [],
+  "languages": [
+    {
+      "lang": "zh-TW",
+      "name": "正體中文",
+      "path": "./lang/zh-TW.json"
+    }
+  ],
+  "packs": [],
+  "system": [],
+  "dependencies": [],
+  "socket": false,
+  "manifest": "https://raw.githubusercontent.com/FVTT-zh-TW/foundry_zh_TW/0.8.6/module.json",
+  "download": "https://github.com/FVTT-zh-TW/foundry_zh_TW/archive/refs/tags/0.8.6.zip",
+  "protected": false,
+  "coreTranslation": true
+}
