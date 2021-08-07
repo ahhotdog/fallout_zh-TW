@@ -1,0 +1,73 @@
+{
+	"label": "Skills",
+	"entries": {
+		"Athletics": {
+			"name": "運動",
+			"description": ""
+		},
+		"Barter": {
+			"name": "議價",
+			"description": ""
+		},
+		"Big Guns": {
+			"name": "大槍",
+			"description": ""
+		},
+		"Energy Weapons": {
+			"name": "能量武器",
+			"description": ""
+		},
+		"Explosives": {
+			"name": "炸藥",
+			"description": ""
+		},
+		"Lockpick": {
+			"name": "開鎖",
+			"description": ""
+		},
+		"Medicine": {
+			"name": "醫學",
+			"description": ""
+		},
+		"Melee Weapons": {
+			"name": "近戰武器",
+			"description": ""
+		},
+		"Pilot": {
+			"name": "駕駛",
+			"description": ""
+		},
+		"Repair": {
+			"name": "維修",
+			"description": ""
+		},
+		"Science": {
+			"name": "科學",
+			"description": ""
+		},
+		"Small Guns": {
+			"name": "小槍",
+			"description": ""
+		},
+		"Sneak": {
+			"name": "潛行",
+			"description": ""
+		},
+		"Speech": {
+			"name": "演講",
+			"description": ""
+		},
+		"Survival": {
+			"name": "求生",
+			"description": ""
+		},
+		"Throwing": {
+			"name": "投擲",
+			"description": ""
+		},
+		"Unarmed": {
+			"name": "徒手",
+			"description": ""
+		}
+	}
+}
