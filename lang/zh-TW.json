@@ -1,184 +1,177 @@
 {
-	"ACTOR.TypeCharacter": "Character",
-	"ACTOR.TypeRobot": "Robot",
-	"ACTOR.TypeNpc": "NPC",
-	"ACTOR.TypeCreature": "Creature",
-	"ITEM.TypeWeapon": "Weapon",
-	"ITEM.TypeWeapon_mod": "Weapon Mod",
-	"ITEM.TypeAmmo": "Ammo",
-	"ITEM.TypeApparel": "Apparel",
-	"ITEM.TypeApparel_mod": "Apparel Mod",
-	"ITEM.TypeRobot_armor": "Robot Armor",
-	"ITEM.TypeRobot_mod": "Robot Module",
-	"ITEM.TypeConsumable": "Consumable",
-	"ITEM.TypeBooks_and_magz": "Book/Magazine",
-	"ITEM.TypeMiscellany": "Miscellany",
-	"ITEM.TypeSkill": "Skill",
-	"ITEM.TypePerk": "Perk",
-	"ITEM.TypeSpecial_ability": "Special Ability",
-
-	"FALLOUT.AbilityStr": "Strength",
-	"FALLOUT.AbilityPer": "Perception",
-	"FALLOUT.AbilityEnd": "Endurance",
-	"FALLOUT.AbilityCha": "Charisma",
-	"FALLOUT.AbilityInt": "Intelligence",
-	"FALLOUT.AbilityAgi": "Agility",
-	"FALLOUT.AbilityLuc": "Luck",
-
-	"FALLOUT.AbilityStrAbbr": "str",
-	"FALLOUT.AbilityPerAbbr": "per",
-	"FALLOUT.AbilityEndAbbr": "end",
-	"FALLOUT.AbilityChaAbbr": "cha",
-	"FALLOUT.AbilityIntAbbr": "int",
-	"FALLOUT.AbilityAgiAbbr": "agi",
-	"FALLOUT.AbilityLucAbbr": "luc",
-
-	"FALLOUT.EffectCreate": "Create Effect",
-	"FALLOUT.EffectToggle": "Toggle Effect",
-	"FALLOUT.EffectEdit": "Edit Effect",
-	"FALLOUT.EffectDelete": "Delete Effect",
-
-	"FALLOUT.Add": "Add",
-
-	"FALLOUT.SKILL": {
-		"Athletics": "Athletics",
-		"Barter": "Barter",
-		"Big Guns": "Big Guns",
-		"Energy Weapons": "Energy Weapons",
-		"Explosives": "Explosives",
-		"Lockpick": "Lockpick",
-		"Medicine": "Medicine",
-		"Melee Weapons": "Melee Weapons",
-		"Pilot": "Pilot",
-		"Repair": "Repair",
-		"Science": "Science",
-		"Small Guns": "Small Guns",
-		"Sneak": "Sneak",
-		"Speech": "Speech",
-		"Survival": "Survival",
-		"Throwing": "Throwing",
-		"Unarmed": "Unarmed"
-	},
-	"FALLOUT.BODYLOCATION.character": {
-		"head": "Head",
-		"torso": "Torso",
-		"armR": "Right Arm",
-		"armL": "Left Arm",
-		"legR": "Right Leg",
-		"legL": "Left Leg"
-	},
-	"FALLOUT.BODYLOCATION_ABBR.character": {
-		"head": "H",
-		"torso": "T",
-		"armR": "AR",
-		"armL": "AL",
-		"legR": "LR",
-		"legL": "LL"
-	},
-	"FALLOUT.BODYLOCATION.robot": {
-		"head": "Optics",
-		"torso": "Main Body",
-		"armR": "Arm 2",
-		"armL": "Arm 1",
-		"legR": "Thruster",
-		"legL": "Arm 3"
-	},
-	"FALLOUT.BODYLOCATION_ABBR.robot": {
-		"head": "O",
-		"torso": "MB",
-		"armR": "A2",
-		"armL": "A1",
-		"legR": "TH",
-		"legL": "A3"
-	},
-	"FALLOUT.RESISTANCE": {
-		"physical": "Physical",
-		"energy": "Energy",
-		"radiation": "Radiation",
-		"poison": "Poison"
-	},
-	"FALLOUT.APPAREL": {
-		"clothing": "Clothing",
-		"outfit": "Outfit",
-		"armor": "Armor",
-		"headgear": "Headgear",
-		"powerArmor": "Power Armor",
-		"plating": "Plating"
-	},
-	"FALLOUT.equipped": "Equipped",
-	"FALLOUT.powered": "Powered",
-	"FALLOUT.HEALTH": {
-		"health": "Health",
-		"max": "Max Health",
-		"current": "Current Health"
-	},
-	"FALLOUT.MODS": {
-		"mods": "Mods"
-	},
-	"FALLOUT.LEVEL": {
-		"Level": "Level",
-		"CurrentXP": "Current XP",
-		"NextXP": "Next Level XP",
-		"RewardXP": "XP Reward"
-	},
-
-	"FALLOUT.WEAPONS": {
-		"weaponType": {
-			"bigGuns": "Big Guns",
-			"energyWeapons": "Energy Weapons",
-			"explosives": "Explosives",
-			"meleeWeapons": "Melee Weapons",
-			"smallGuns": "Small Guns",
-			"throwing": "Throwing",
-			"unarmed": "Unarmed",
-			"creatureAttack": "Creature Attack"
-		},
-		"damageType": {
-			"physical": "Physical",
-			"energy": "Energy",
-			"radiation": "Radiation",
-			"poison": "Poison"
-		}
-	},
-	"FALLOUT.RANGE": {
-		"close": "C",
-		"medium": "M",
-		"long": "L",
-		"extreme": "E"
-	},
-
-	"FALLOUT.CREATURE": {
-		"body": "Body",
-		"mind": "Mind",
-		"melee": "Melee",
-		"guns": "Guns",
-		"other": "Other"
-	},
-	"FALLOUT.UI": {
-		"Add": "Add",
-		"Name": "Name",
-		"Damage": "Damage",
-		"Type": "Type",
-		"Quantity": "Quantity",
-		"ORIGIN": "ORIGIN",
-		"CarryWeight": "Carry Weight",
-		"Perks": "Perks",
-		"ROBOT_MODULES": "Robot Modules",
-		"WEAPON_MODS": "Weapon Mods",
-		"APPAREL_MODS": "Apparel Mods",
-		"CONSUMABLES": "Consumables",
-		"BOOKS_AND_MAGZS": "Books and Magazines",
-		"MISCELLANY": "Miscellany",
-		"UNSORTED": "Unsorted",
-		"OTHER": "Other",
-		"CAPS": "Caps",
-		"SPECIAL_ABILITY": "Special Ability",
-		"INVENTORY": "Inventory",
-		"stashed": "Stashed",
-		"favorite": "Favorite"
-	},
-	"FALLOUT.FOOD": "Food",
-	"FALLOUT.BEVERAGE": "Beverage",
-	"FALLOUT.CHEM": "Chem",
-	"FALLOUT.OTHER": "Other"
+  "ACTOR.TypeCharacter": "角色",
+  "ACTOR.TypeRobot": "機器人",
+  "ACTOR.TypeNpc": "NPC",
+  "ACTOR.TypeCreature": "生物",
+  "ITEM.TypeWeapon": "武器",
+  "ITEM.TypeWeapon_mod": "武器模組",
+  "ITEM.TypeAmmo": "子彈",
+  "ITEM.TypeApparel": "服裝",
+  "ITEM.TypeApparel_mod": "服裝模組",
+  "ITEM.TypeRobot_armor": "機器人護甲",
+  "ITEM.TypeRobot_mod": "機器人模組",
+  "ITEM.TypeConsumable": "消耗品",
+  "ITEM.TypeBooks_and_magz": "書籍/雜誌",
+  "ITEM.TypeMiscellany": "雜項",
+  "ITEM.TypeSkill": "技能",
+  "ITEM.TypePerk": "輔助能力",
+  "ITEM.TypeSpecial_ability": "特殊能力",
+  "FALLOUT.AbilityStr": "力量",
+  "FALLOUT.AbilityPer": "感知",
+  "FALLOUT.AbilityEnd": "耐力",
+  "FALLOUT.AbilityCha": "魅力",
+  "FALLOUT.AbilityInt": "智力",
+  "FALLOUT.AbilityAgi": "敏捷",
+  "FALLOUT.AbilityLuc": "運氣",
+  "FALLOUT.AbilityStrAbbr": "力量",
+  "FALLOUT.AbilityPerAbbr": "感知",
+  "FALLOUT.AbilityEndAbbr": "耐力",
+  "FALLOUT.AbilityChaAbbr": "魅力",
+  "FALLOUT.AbilityIntAbbr": "智力",
+  "FALLOUT.AbilityAgiAbbr": "敏捷",
+  "FALLOUT.AbilityLucAbbr": "運氣",
+  "FALLOUT.EffectCreate": "建立效果",
+  "FALLOUT.EffectToggle": "切換效果",
+  "FALLOUT.EffectEdit": "修改效果",
+  "FALLOUT.EffectDelete": "刪除效果",
+  "FALLOUT.Add": "增加",
+  "FALLOUT.SKILL": {
+    "Athletics": "運動",
+    "Barter": "議價",
+    "Big Guns": "大槍",
+    "Energy Weapons": "能量武器",
+    "Explosives": "炸藥",
+    "Lockpick": "開鎖",
+    "Medicine": "醫學",
+    "Melee Weapons": "近戰武器",
+    "Pilot": "駕駛",
+    "Repair": "維修",
+    "Science": "科學",
+    "Small Guns": "小槍",
+    "Sneak": "潛行",
+    "Speech": "演講",
+    "Survival": "求生",
+    "Throwing": "投擲",
+    "Unarmed": "徒手"
+  },
+  "FALLOUT.BODYLOCATION.character": {
+    "head": "頭部",
+    "torso": "身軀",
+    "armR": "右臂",
+    "armL": "左臂",
+    "legR": "右腿",
+    "legL": "左腿"
+  },
+  "FALLOUT.BODYLOCATION_ABBR.character": {
+    "head": "H",
+    "torso": "T",
+    "armR": "AR",
+    "armL": "AL",
+    "legR": "LR",
+    "legL": "LL"
+  },
+  "FALLOUT.BODYLOCATION.robot": {
+    "head": "光學儀",
+    "torso": "主軀幹",
+    "armR": "肢體 2",
+    "armL": "肢體 1",
+    "legR": "推進器",
+    "legL": "肢體 3"
+  },
+  "FALLOUT.BODYLOCATION_ABBR.robot": {
+    "head": "O",
+    "torso": "MB",
+    "armR": "A2",
+    "armL": "A1",
+    "legR": "TH",
+    "legL": "A3"
+  },
+  "FALLOUT.RESISTANCE": {
+    "physical": "物理",
+    "energy": "能量",
+    "radiation": "輻射",
+    "poison": "毒素"
+  },
+  "FALLOUT.APPAREL": {
+    "clothing": "衣服",
+    "outfit": "連身服",
+    "armor": "盔甲",
+    "headgear": "頭盔",
+    "powerArmor": "動力裝甲",
+    "plating": "電鍍"
+  },
+  "FALLOUT.equipped": "配備",
+  "FALLOUT.powered": "供電",
+  "FALLOUT.HEALTH": {
+    "health": "生命值",
+    "max": "最大生命值",
+    "current": "當前生命值"
+  },
+  "FALLOUT.MODS": {
+    "mods": "模組"
+  },
+  "FALLOUT.LEVEL": {
+    "Level": "等級",
+    "CurrentXP": "當前 XP",
+    "NextXP": "下一級 XP",
+    "RewardXP": "XP 獎勵"
+  },
+  "FALLOUT.WEAPONS": {
+    "weaponType": {
+      "bigGuns": "大槍",
+      "energyWeapons": "能量武器",
+      "explosives": "炸藥",
+      "meleeWeapons": "近戰武器",
+      "smallGuns": "小槍",
+      "throwing": "投擲",
+      "unarmed": "徒手",
+      "creatureAttack": "生物攻擊"
+    },
+    "damageType": {
+      "physical": "物理",
+      "energy": "能量",
+      "radiation": "輻射",
+      "poison": "毒素"
+    }
+  },
+  "FALLOUT.RANGE": {
+    "close": "近距離",
+    "medium": "中距離",
+    "long": "遠距離",
+    "extreme": "極遠距"
+  },
+  "FALLOUT.CREATURE": {
+    "body": "身體",
+    "mind": "心靈",
+    "melee": "近戰",
+    "guns": "槍械",
+    "other": "其他"
+  },
+  "FALLOUT.UI": {
+    "Add": "增加",
+    "Name": "名稱",
+    "Damage": "傷害",
+    "Type": "種類",
+    "Quantity": "數量",
+    "ORIGIN": "起源",
+    "CarryWeight": "攜行重量",
+    "Perks": "輔助能力",
+    "ROBOT_MODULES": "機器人模組",
+    "WEAPON_MODS": "武器模組",
+    "APPAREL_MODS": "服裝模組",
+    "CONSUMABLES": "消耗品",
+    "BOOKS_AND_MAGZS": "書籍和雜誌",
+    "MISCELLANY": "雜項",
+    "UNSORTED": "未分類",
+    "OTHER": "其他",
+    "CAPS": "瓶蓋",
+    "SPECIAL_ABILITY": "特殊能力",
+    "INVENTORY": "物品欄",
+    "stashed": "藏匿",
+    "favorite": "偏好"
+  },
+  "FALLOUT.FOOD": "食物",
+  "FALLOUT.BEVERAGE": "飲料",
+  "FALLOUT.CHEM": "藥劑",
+  "FALLOUT.OTHER": "其他"
 }
