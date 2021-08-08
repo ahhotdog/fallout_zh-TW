@@ -21,7 +21,29 @@
       "path": "./lang/zh-TW.json"
     }
   ],
-  "packs": [],
+  "packs": [
+    {
+      "name": "Item",
+      "label": "物品",
+      "system": "fallout",
+      "path": "./packs/Item.db",
+      "entity": "Item"
+    },
+    {
+      "name": "Perks",
+      "label": "輔助能力",
+      "system": "fallout",
+      "path": "./packs/Perks.db",
+      "entity": "Item"
+    },
+    {
+      "name": "SpecialAbility",
+      "label": "特殊能力",
+      "system": "fallout",
+      "path": "./packs/SpecialAbility.db",
+      "entity": "Item"
+    }
+  ],
   "system": [],
   "dependencies": [],
   "socket": false,
