@@ -63,12 +63,12 @@
     "legL": "左腿"
   },
   "FALLOUT.BODYLOCATION_ABBR.character": {
-    "head": "H",
-    "torso": "T",
-    "armR": "AR",
-    "armL": "AL",
-    "legR": "LR",
-    "legL": "LL"
+    "head": "頭部",
+    "torso": "身軀",
+    "armR": "右臂",
+    "armL": "左臂",
+    "legR": "右腿",
+    "legL": "左腿"
   },
   "FALLOUT.BODYLOCATION.robot": {
     "head": "光學儀",
@@ -79,12 +79,12 @@
     "legL": "肢體 3"
   },
   "FALLOUT.BODYLOCATION_ABBR.robot": {
-    "head": "O",
-    "torso": "MB",
-    "armR": "A2",
-    "armL": "A1",
-    "legR": "TH",
-    "legL": "A3"
+    "head": "光學儀",
+    "torso": "主軀幹",
+    "armR": "肢體 2",
+    "armL": "肢體 1",
+    "legR": "推進器",
+    "legL": "肢體 3"
   },
   "FALLOUT.RESISTANCE": {
     "physical": "物理",
@@ -100,7 +100,7 @@
     "powerArmor": "動力裝甲",
     "plating": "電鍍"
   },
-  "FALLOUT.equipped": "配備",
+  "FALLOUT.equipped": "裝備",
   "FALLOUT.powered": "供電",
   "FALLOUT.HEALTH": {
     "health": "生命值",
