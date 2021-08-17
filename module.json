@@ -23,6 +23,13 @@
   ],
   "packs": [
     {
+      "name": "Actor",
+      "label": "生物",
+      "system": "fallout",
+      "path": "./packs/Actor.db",
+      "entity": "Actor"
+    },
+    {
       "name": "Item",
       "label": "物品",
       "system": "fallout",
