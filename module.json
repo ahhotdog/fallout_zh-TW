@@ -49,6 +49,13 @@
       "system": "fallout",
       "path": "./packs/SpecialAbility.db",
       "entity": "Item"
+    },
+    {
+      "name": "Rules",
+      "label": "規則",
+      "entity": "JournalEntry",      
+      "path": "./packs/Rules.db",
+      "system": "fallout"
     }
   ],
   "system": [],
